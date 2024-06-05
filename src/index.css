@@ -1,0 +1,123 @@
+body{
+  background-color: black;
+  color: azure;
+}
+
+.twodo-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 3rem;
+  font-family: Poppins;
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: 530;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+
+}
+
+.text{
+  color: black;
+  font-size:1.3rem;
+  font-weight: 500;
+  font-family: Poppins;
+  flex: 1;
+
+}
+
+.add-button{
+  background-color: rgb(5, 141, 5);
+  border: 3px solid rgb(5, 141, 5) ;
+  align-items: center;
+  text-align: center;
+
+}
+
+.add-button:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 87, 8);
+  border-radius: 3px solid rgb(5, 141, 5) ;
+}
+
+.delete-button{
+  background-color: rgb(255, 18, 18);
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(250, 26, 26) ;
+}
+
+.delete-button:hover{
+  background-color: rgb(199, 11, 11);
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 16, 16) ;
+}
+
+.edit-button{
+  background-color: rgba(21, 122, 255, 0.884);
+  color: rgba(255, 255, 255, 0.897);
+  border: 3px solid rgba(36, 130, 253, 0.884);
+}
+
+.edit-button:hover{
+  color: rgb(255, 255, 255);;
+  background-color: rgba(5, 78, 173, 0.884);
+  border-radius: 3px solid rgba(36, 130, 253, 0.884) ;
+}
+
+.save-button{
+  background-color: rgb(5, 141, 5);
+  border: 3px solid rgb(5, 141, 5) ;
+}
+
+.save-button:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 87, 8);
+  border-radius: 3px solid rgb(5, 141, 5) ;
+}
+
+input[type=text]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  color: hsl(0, 0%, 10%);
+}
+
+ol{
+  padding: 0;
+
+}
+
+li{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px;
+  background-color: hsla(0, 0%, 97%, 0.85);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.error-message{
+  text-align: center;
+  /* display: none; */
+
+}
+
+/* 
+.order-list{
+
+} */
